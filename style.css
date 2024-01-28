@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-family: Arial, sans-serif;
+  background-color: #c5c4c3;
+}
+
+nav {
+  position: fixed;
+  height: 100vh;
+  width: 80px;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+#menu {
+  margin-bottom: 30px;
+}
+#search {
+  margin-bottom: 40px;
+}
+nav h1 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 35px;
+  color: black;
+}
+#home {
+  margin-left: 100px;
+}
+
+
+.post {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#search{
+  margin-top: 30px;
+}
+
+input{
+  width: 60%;
+  height: 30px;
+  
+}
+button{
+  height: 35px;
+  border-style: none;
+}
+
+.footer {
+  width: 100%;
+
+  border-radius: 5px;
+}
+
+hr{
+  border: 1px solid black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bharat Bulletin</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    
+    <nav>
+      <a id="menu"><img src="./icons/burger menu.svg" width="40px" /></a>
+      <a id="search"><img src="./icons/search1.svg" width="40px" /></a>
+      <a id="logo"><img src="./icons/logo.svg" width="35px" /></a>
+      <h1>Bharat Bulletin</h1>
+    </nav>
+
+
+    <div id="home">
+      <div id="search">
+        <label for="postId">Search Post By ID</label>
+        <input type="number" id="postId" min="1" max="6">
+        <button onclick="fetchPost()">Fetch Post</button>
+        <div id="search-post"></div>
+      </div>
+<hr>
+      <div id="posts-container"></div>
+<hr>
+      <div class="footer">
+        <h1>About Web Mosaic</h1>
+        <p id="about-text">Loading...</p>
+    </div>
+    </div>
+
+
+    <script src="./index.js" charset="UTF-8">
+
+    </script>
+  </body>
+</html>
